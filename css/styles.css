@@ -1,0 +1,283 @@
+body, html{
+font-size: 60%;
+height:100%;
+width: 100%;
+}
+/*media queries*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #mobile { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+  #mobile { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #side { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 7681px) and (max-width: 1920px) {
+  #side { display: block; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #content { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 7681px) and (max-width: 1920px) {
+  #content { display: block; }   /* hide it elsewhere */
+}
+
+/*media queries end*/
+/*FONFACES*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@font-face {
+  font-family: 'simplifica';
+  src: url('../fonts/simplifica.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/simplifica.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+/*FONTFACES END*/
+
+a{
+text-decoration: none;}
+img{
+	max-width:90% !important;
+    height:auto;
+    display:block;
+}
+.icons{
+	margin-top: 3em;
+	text-align: center;
+}
+.scl{
+	width: 70px;
+	height: auto;
+	margin-left: 25%;
+	margin-top: 15px;
+}
+
+/*ayudas*/
+.monos{
+	margin-top: 2em;
+	height: 100px;
+	width: auto;
+	text-align: center;
+}
+
+.mapa{
+	margin-top: 5em;
+	height: 25%;
+}
+iframe{
+margin-top: 5em;
+position: relative;
+}
+
+.margima{
+	margin-top: 5em;
+	margin-left: .5em;
+}
+.upmarg{
+	margin-top: 35%;
+}
+.center{
+	text-align: center;
+}
+.chelas{
+	text-align: center;
+}
+.up2{
+	margin-top: 2em;
+	vertical-align: middle;
+}
+.up3{
+	margin-top: 3em;
+	vertical-align: middle;
+}
+}
+.up4{
+	padding-top: 4em;
+}
+/*.abajo{
+	margin-top: 50%;
+}*/
+/*AYUDAS END*/
+/*CONTAINERS*/
+#wrapup{
+	margin-top: 3em;
+}
+
+.registrolink{
+	margin-top: 1em;
+}
+#side{
+	background-image:url('../img/side-back.jpg');
+	width: 15%;
+	height: 100%;
+	position: fixed;
+}
+
+#content{
+	width: 85%;
+	height:100%;
+	float: right;
+	
+}
+.context{
+	padding-top: 10%;
+}
+.wrap1{
+	background-image:url('../img/fondo2.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 50%;
+	position: relative;
+	background-attachment: fixed;
+}
+#reto{
+	background-color: #edecec;
+	height: 115%;
+	position: relative;
+}
+#fritanga{
+	height: 33.33333%;
+	background-color: #171717;
+	position: relative;
+	
+}
+#evento{
+	height: 100%;
+	background-color: #f2f2e7;
+	position: relative;
+}
+#gente{
+	height: 20%;
+}
+#textlol{
+	background-image:url('../img/fondo3.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 33.33333%;
+	background-attachment: fixed;
+	position: relative;
+
+}
+#registro{
+	background-color: #edecec;
+	height: 100%;
+	background-attachment: fixed;
+	position: relative;
+
+}
+.orga-wrapper{
+	margin-top:4em;
+	border-radius: 25px;
+
+}
+.orga-wrapper img{
+	opacity: 100;
+	display: inline;
+	margin-left: 1.5em;
+	height: 60px;
+}
+.chelas-wrapper {
+	margin-top:4em;
+}
+.chelas-wrapper img {
+	display: inline;
+	margin-left: 1.5;
+	height: 100px ;
+}
+
+/*CONTAINERS END*/
+.cita{
+	color: white;
+	font-size: 1.7em;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 1em;
+}
+.dir{
+	margin-top: 1.5em;
+	color: #404041;
+	font-size: 1em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.retotitle{
+	margin-top: 1em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2.5rem;
+	color: #404041;
+}
+.retotext{
+	margin-top: 1em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	color: #404041;
+}
+.sinemb{
+	margin-top: 3em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	color: #00adef;
+}
+.sup img{
+	display: inline;
+	margin: 10px;
+}
+.retoforte{
+	margin-top: 1em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 200;
+	font-size: 1.3rem;
+	color: #404041;
+}
+.retoforte2{
+	margin-top: 3em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 200;
+	font-size: 1.3rem;
+	color: #404041;
+}
+.title{
+	font-family: simplifica;
+	color:#d14d4d;
+	font-size: 6em;
+}
+.reg {
+	padding: .5em;
+	background-color: #d14d4d;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
+}
+.reg a{
+		color: white;
+}
+.right{
+	text-align: right;
+	padding-top: 1em;
+}
+.orga{
+	color:black;
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #FFEB17;
+	margin-top: 2em;
+	padding: .2em
+}
+.button{
+	padding: .5em;
+	background-color: #d14d4d;
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;}

@@ -1,0 +1,38 @@
+#cabeza-mob{
+	height:200px;
+	background-image:url('../img/back-mobile.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#retomob{
+	background-color: #edecec;
+}
+
+.mobiletitle{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 500;
+	font-size: 2rem;
+	color: #404041;
+}
+.mobilebody{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #404041;
+}
+.sinmobile{
+	margin-top: 1em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #00adef;
+}
+
+#eventomobile{
+	background-color: #f2f2e7;
+}
+#registromob{
+	background-color: #edecec;
+}
